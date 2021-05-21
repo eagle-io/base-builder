@@ -7,11 +7,15 @@ description = "Ubuntu bionic base image with buildpacks for Java, .NET Core, Nod
 [[buildpacks]]
   uri = "docker://gcr.io/paketo-buildpacks/go:0.7.0"
   version = "0.7.0"
+  
+[[buildpacks]]
+  uri = "docker://argosio/eagle_java-agents"
+  version = "0.0.4"
 
 [[buildpacks]]
   uri = "docker://gcr.io/paketo-buildpacks/java-native-image:5.3.0"
   version = "5.3.0"
-
+  
 [[buildpacks]]
   uri = "docker://gcr.io/paketo-buildpacks/java:5.8.0"
   version = "5.8.0"
